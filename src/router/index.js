@@ -19,6 +19,31 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
   },
+  {
+    path: "/longlist",
+    name: "LongList",
+    component: () =>
+      import(/* webpackChunkName: "longlist" */ "../views/001LongList.vue"),
+  },
+  {
+    path: "/longlist2",
+    name: "LongList2",
+    component: () =>
+      import(/* webpackChunkName: "longlist2" */ "../views/002LongList.vue"),
+  },
+  {
+    path: "/vif",
+    name: "Vif",
+    component: () =>
+      import(/* webpackChunkName: "vif" */ "../views/003vif.vue"),
+  },
+  {
+    path: "/function",
+    name: "Function",
+    component: () =>
+      import(/* webpackChunkName: "function" */ "../views/004functional.vue"),
+  },
+
 ];
 
 const router = new VueRouter({

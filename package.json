@@ -5,12 +5,15 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lint1": "eslint --fix --ext .js,.vue src"
   },
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
+    "vue-virtual-scroll-list": "^2.3.3",
+    "vue-virtual-scroller": "^1.0.10",
     "vuex": "^3.4.0"
   },
   "devDependencies": {

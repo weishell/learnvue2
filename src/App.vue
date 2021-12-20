@@ -2,7 +2,14 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link>|
+      <router-link to="/longlist">vue-virtual-scroll-list</router-link>|
+      <router-link to="/longlist2">vue-virtual-scroller</router-link>|
+      <router-link to="/vif">v-if</router-link>|
+      <router-link to="/function">function</router-link>|
+
+
+
     </div>
     <router-view />
   </div>
